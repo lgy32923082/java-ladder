@@ -1,14 +1,15 @@
 # java-ladder
-사다리 게임 미션 저장소
-
-* 미션 마감 시간
-  * 1차 : 11월 02일
-  * 2차 : 11월 09일
-  * 3차 : 11월 16일
-  * 4차 : 11월 23일
-  
-* [미션 시작하기](https://github.com/backlo-study-programing/study-docs/blob/master/%EB%AF%B8%EC%85%98%20%EC%8B%9C%EC%9E%91.md)
+* Model
+> Ladder : 사다리의 길이와 / 높이를 가지고있는 객체
+>
+> Line : 사다리의 한 라인(가로)의 정보를 가지는 객체
+>
+> Player : 사다리게임을 하는 플레이어 객체
  
-* [온라인 코드 리뷰 과정](https://github.com/backlo-study-programing/study-docs/blob/master/%EC%BD%94%EB%93%9C%20%EB%A6%AC%EB%B7%B0.md)
+* View
+> inputView : 값을 넣어주는 view 
+>
+> OutPutView : 값을 출력해주는 view
 
-* [참고 자료](https://github.com/backlo-study-programing/study-docs/blob/master/Java%20%EC%9E%90%EB%A3%8C/%EC%9E%90%EB%B0%94%20%EC%9E%90%EB%A3%8C.md)
+* Controller
+ > LadderController : 전체적인 흐름을 제어해주는 컨트롤러
